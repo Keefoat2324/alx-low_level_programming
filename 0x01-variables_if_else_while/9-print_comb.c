@@ -9,11 +9,11 @@
 
 int main(void)
 {
-char ch;
-for (ch = 48; ch <= 57 ; ch++)
+int n;
+for (n = 48; n <= 57 ; n++)
 {
-	putchar(ch);
-	if (ch != 57)
+	putchar(n);
+	if (n != 57)
 	{
 		putchar(44);
 		putchar(32);
