@@ -18,15 +18,15 @@ n = rand() - RAND_MAX / 2;
 lastd = n % 10;
 
 printf("Last digit of %d is ", n);
-if (n > 5)
+if (lastd  > 5)
 {
 	printf("%d and is greater than 5", lastd);
 }
-if (n == 0)
+if (lastd  == 0)
 {
 	printf("%d and is 0", lastd);
 }
-if (n < 6 && n != 0)
+if (lastd < 6 && lastd != 0)
 {
 	printf("%d and is less than 6 and not 0", lastd);
 }
