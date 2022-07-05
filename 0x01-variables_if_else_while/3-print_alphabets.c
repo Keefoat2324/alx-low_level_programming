@@ -4,8 +4,7 @@
 
 /**
 * main -> assign a random number to the variable n each each
-* time it is executed and print the last digit of the number
-* in the variable 
+* time it is executed and print the last digit of the number in the variable 
 * Return: always 0
 */
 
