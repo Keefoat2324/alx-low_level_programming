@@ -22,7 +22,7 @@ for (ch1 = 0; ch1 < 100; ch1++)
 			putchar(ch1 % 10 + '0');
 			putchar(32);
 			putchar(ch2 / 10 + '0');
-			putcha(ch2 % 10 +  '0');
+			putchar(ch2 % 10 +  '0');
 				if ((ch1 * 100) + ch2 != 9899)
 				{
 					putchar(44);
