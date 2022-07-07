@@ -6,7 +6,7 @@
 * Return: 1 and 0 depending on the conditions
 */
 
-int n
+int n;
 
 int print_sign(int n)
 {
